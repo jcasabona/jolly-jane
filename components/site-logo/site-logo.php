@@ -1,0 +1,1 @@
+<?php jolly_jane_the_site_logo(); ?>
