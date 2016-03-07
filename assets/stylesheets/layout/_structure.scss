@@ -1,11 +1,50 @@
 .site{
 	margin: 0 auto;
-	width: $size__site-width;
+	width: $size-site-width;
 }
 .content-area {
 	float: none;
 	margin: 0;
 	width: 100%;
+}
+
+.site-header {
+	background: $color-secondary;
+	color: $color-white;
+	padding: 0 $padding-most;
+
+	a {
+		&:link,
+		&:visited {
+			color: $color-white;
+			text-decoration: none;
+		}
+
+		&:hover,
+		&:focus {
+			color: $color-light-grey;
+		}
+	}
+
+	.site-branding {
+		display: inline-block;
+		float: left;
+	}
+
+	nav.main-navigation {
+		display: block;
+		float: right;
+		max-width: 50%;
+
+		li {
+			list-style-type: none;
+		}
+	}
+}
+
+.contain {
+	margin: 0 auto;
+	max-width: $size-max-width;
 }
 
 .site-main {
@@ -20,5 +59,6 @@
 
 .site-footer {
 	clear: both;
-	width: $size__site-main;
+	padding: $padding-more $padding-most 0;
+	width: $size-site-main;
 }

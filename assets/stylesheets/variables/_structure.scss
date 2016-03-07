@@ -1,3 +1,9 @@
-$size__site-width: 90%;
-$size__site-main: 100%;
-$size__site-sidebar: 100%;
+$size-site-width: 100%;
+$size-site-main: 100%;
+$size-site-sidebar: 100%;
+
+$size-max-width: 1100px;
+
+$padding: 15px;
+$padding-more: $padding * 2;
+$padding-most: $padding-more * 4;

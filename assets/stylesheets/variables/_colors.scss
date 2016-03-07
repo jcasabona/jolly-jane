@@ -1,34 +1,35 @@
-$color__primary: #111;
-$color__white: #fff;
-$color__light-grey: #f4f4f4;
-$color__mid-grey: #ccc;
-$color__dark-grey: #666;
-$color__light-black: #444;
-$color__black: #222;
+$color-primary: #111;
+$color-secondary: #226666;
+$color-white: #fff;
+$color-light-grey: #f4f4f4;
+$color-mid-grey: #ccc;
+$color-dark-grey: #666;
+$color-light-black: #444;
+$color-black: #222;
 
-$color__background-body: $color__white;
-$color__background-hr: $color__light-grey;
-$color__background-pre: $color__light-grey;
-$color__background-ins: $color__light-grey;
-$color__background-screen: $color__light-grey;
+$color-background-body: $color-white;
+$color-background-hr: $color-light-grey;
+$color-background-pre: $color-light-grey;
+$color-background-ins: $color-light-grey;
+$color-background-screen: $color-light-grey;
 
-$color__text-input: $color__light-black;
-$color__text-input-focus: $color__black;
-$color__text-screen: $color__primary;
+$color-text-input: $color-light-black;
+$color-text-input-focus: $color-black;
+$color-text-screen: $color-primary;
 
-$color__background-button: $color__white;
-$color__background-button-hover: $color__light-grey;
-$color__background-button-focus: $color__mid-grey;
+$color-background-button: $color-white;
+$color-background-button-hover: $color-light-grey;
+$color-background-button-focus: $color-mid-grey;
 
-$color__link: $color__light-black;
-$color__link-visited: $color__light-black;
-$color__link-hover: $color__primary;
-$color__text-main: $color__dark-grey;
-$color__text-headings: $color__dark-grey;
+$color-link: $color-light-black;
+$color-link-visited: $color-light-black;
+$color-link-hover: $color-primary;
+$color-text-main: $color-dark-grey;
+$color-text-headings: $color-dark-grey;
 
-$color__border-abbr: $color__light-black;
-$color__border-button: $color__mid-grey;
-$color__border-button-hover: $color__light-black;
-$color__border-button-focus: $color__light-black;
-$color__border-input: $color__mid-grey;
-$color__border-input-focus: $color__light-black;
+$color-border-abbr: $color-light-black;
+$color-border-button: $color-mid-grey;
+$color-border-button-hover: $color-light-black;
+$color-border-button-focus: $color-light-black;
+$color-border-input: $color-mid-grey;
+$color-border-input-focus: $color-light-black;
